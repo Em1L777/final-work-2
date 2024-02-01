@@ -18,11 +18,11 @@ body {
 .order {
     display: none;
 }
-.weather {
+.weat {
     display: none;
 }
 
-.menu:hover .weather {
+.menu:hover .weat {
     display: block;
 }
 a {
@@ -40,7 +40,7 @@ a {
 main {
     width: 100%;
     height: 569px;
-    background-image: url(/weather-page/images/Rectangle-14.png);
+    background-image: url(Rectangle-14.png);
     background-size: cover;
     margin: 0;
 }
@@ -54,7 +54,7 @@ footer {
     width: 100%;
     height: 296px;
     background-size: cover;
-    background-image: url(/weather-page/images/Rectangle-15.png);
+    background-image: url(Rectangle-15.png);
 }
 .container {
     position: absolute;
@@ -157,3 +157,8 @@ footer {
     display: none;
   }
  
+
+
+
+
+
