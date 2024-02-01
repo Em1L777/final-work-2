@@ -10,19 +10,19 @@ main {
     width: 360px;
     height: 1050px;
     background-size: cover;
-    background-image: url(1-background.png);
+    background-image: url(/login/images/1-background.png);
 }
 .img2 {
     width: 720px;
     height: 1050px;
     background-size: cover;
-    background-image: url(2-background.png);
+    background-image: url(/login/images/2-background.png);
 }
 .img3 {
     width: 403px;
     height: 1050px;
     background-size: cover;
-    background-image: url(3-background.png);
+    background-image: url(/login/images/3-background.png);
 
 }
 .login {

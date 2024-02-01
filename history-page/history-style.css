@@ -39,7 +39,7 @@ a {
     margin-right: 35px;
 }
 main {
-    background-image: url(back-ground.png);
+    background-image: url(/history-page/images/back-ground.png);
     width: 100%;
     height: 800px;
     background-size: cover;
@@ -155,6 +155,6 @@ p {
 footer {
     width: 100%;
     height: 250px;
-    background-image: url(Rectangle-12.png);
+    background-image: url(/history-page/images/Rectangle-12.png);
     background-size: cover;
 }
