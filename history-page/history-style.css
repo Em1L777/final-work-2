@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(230, 92, 0, 1);
+    
+}
+.navbar_click {
+    margin-right: 50px;
+    margin-top: 60px;
+    font-size: 25px;
+    font-family: 'IBM Plex Mono', monospace;
+    width: 30px;
+    height: 60px;
+}
+
+.weather {
+    display: none;
+}
+
+.menu:hover .weather {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.login-icon {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 35px;
+}
+main {
+    background-image: url(back-ground.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+   
+    display: flex;
+}
+p {
+    margin: 0;
+    color: rgba(22, 160, 133, 1);
+    font-size: 60px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.text {
+    color: white;
+    font-size: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.grid {
+    display: grid;
+    margin-top: 150px;
+    margin-left: 300px;
+    gap: 10px;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px ;
+    
+}
+.orig {
+    color: white;
+    font-size: 35px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0;
+    width: 150px;
+}
+.connector1 {
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.connector2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+.img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.eleg {
+    color: white;
+    font-size: 35px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+    width: 150px;
+    padding-top: 70px;
+}
+.connector3 {
+    padding-top: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4px;
+    padding-left: 30px;
+    
+}
+.reli {
+    color: white;
+    font-size: 35px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0;
+    width: 150px;
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 130px;
+}
+.connector4 {
+    padding-top: 15px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.des {
+    color: white;
+    font-size: 35px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+    width: 150px;
+    height: 40px;
+    padding-left: 90px;
+    padding-top: 70px;
+    
+}
+footer {
+    width: 100%;
+    height: 250px;
+    background-image: url(Rectangle-12.png);
+    background-size: cover;
+}

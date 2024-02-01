@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0,0,0);
+    background: linear-gradient(101deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 76%);
+}
+.logo {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.login-icon {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 35px;
+}
+.navbar-click {
+    margin-top: 60px;
+    margin-bottom: 35px;
+    color: #FFF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.weather {
+    display: none;
+}
+
+.menu:hover .weather {
+    display: block;
+}
+a {
+    text-decoration: none;
+    margin-left: 120px;
+    color: white;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+}
+main {
+    width: 1481px;
+    height: 835px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(Rectangle-26.png);
+    margin: 0;
+    
+    
+}
+.text-in {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.text-out {
+    margin-left: 90px;
+    width:1100px;
+    color: white;
+    margin-top: 85px;
+    
+}
+.empty-space {
+    width: 1px;
+    height: 1px;
+}
+.three-item {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 100px;
+    color: white;
+    
+}
+
+.image-slider__image img{
+    margin-left: 580px;
+    border-radius: 20px;
+}
+
+.image-slider {
+    position: relative;
+    min-width: none;
+}
+
+
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+    color: white;
+    font-size: 30px;
+}
+
+
+.swiper-button-prev{
+    position: relative;
+    margin-left: 500px;
+    
+    
+}
+.swiper-button-next {
+    margin-right: 570px;
+
+
+}
+

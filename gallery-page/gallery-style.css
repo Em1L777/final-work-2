@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(229, 45, 39, 1);
+    
+}
+.navbar_click {
+    margin-right: 50px;
+    margin-top: 60px;
+    font-size: 25px;
+    font-family: 'IBM Plex Mono', monospace;
+    width: 30px;
+    height: 60px;
+}
+
+.weather {
+    display: none;
+}
+
+.menu:hover .weather {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.login-icon {
+    margin-top: 60px;
+}
+main {
+    background-image: url(back-ground.png);
+    width: 100%;
+    height: 960px;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.photo1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.photo2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+p {
+    font-family: "IBM Plex Mono";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
